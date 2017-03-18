@@ -1,0 +1,76 @@
+
+<html>
+<head>
+<style type="text/css">
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+.box{
+    border: 4px solid #ccc;
+    padding:20px;
+    margin:10px 100px 100px 10px;
+}
+#advhelp{
+    display:none;
+}
+#advhelp:target{
+    display:block;
+}
+</style>
+</head>
+<body>
+<h1>VarMatch Precision-Recall Curves</h1><h2>VarMatch Matching Parameters Table</h2>
+<table border=.5><tr><th>Matching Id</th><th>Score Unit</th><th>Match Mode</th><th>Score Scheme</th></tr><tr><td>UGT</td><td>Unit Cost[U]</td><td>Genotype[G]</td><td>Total[T]</td></tr><tr><td>UGB</td><td>Unit Cost[U]</td><td>Genotype[G]</td><td>Baseline[B]</td></tr><tr><td>UGQ</td><td>Unit Cost[U]</td><td>Genotype[G]</td><td>Query[Q]</td></tr><tr><td>UVT</td><td>Unit Cost[U]</td><td>Variant[V]</td><td>Total[T]</td></tr><tr><td>UVB</td><td>Unit Cost[U]</td><td>Variant[V]</td><td>Baseline[B]</td></tr><tr><td>UVQ</td><td>Unit Cost[U]</td><td>Variant[V]</td><td>Query[Q]</td></tr><tr><td>EGT</td><td>Edit Distance[E]</td><td>Genotype[G]</td><td>Total[T]</td></tr><tr><td>EGB</td><td>Edit Distance[E]</td><td>Genotype[G]</td><td>Baseline[B]</td></tr><tr><td>EGQ</td><td>Edit Distance[E]</td><td>Genotype[G]</td><td>Query[Q]</td></tr><tr><td>EVT</td><td>Edit Distance[E]</td><td>Variant[V]</td><td>Total[T]</td></tr><tr><td>EVB</td><td>Edit Distance[E]</td><td>Variant[V]</td><td>Baseline[B]</td></tr><tr><td>EVQ</td><td>Edit Distance[E]</td><td>Variant[V]</td><td>Query[Q]</td></tr></table><p>Query 1: NA12878.bt2.fb.vcf</p>
+<p>Query 2: NA12878.bt2.hc.vcf</p>
+<p>Query 3: NA12878.bt2.pt.vcf</p>
+<p>Query 4: NA12878.mem.fb.vcf</p>
+<p>Query 5: NA12878.mem.hc.vcf</p>
+<p>Query 6: NA12878.mem.pt.vcf</p>
+<p>Query 7: CHM1.mem.ug.vcf</p>
+<h2>Precision-Recall Curve by Matching Id</h2><p>For each matching id, compare all queries in one graph</p><h3>Precision-Recall Curve for Parameter UGT</h3>
+<img src="parameter0.roc.png" alt="ROC Curve Not Found">
+<h3>Precision-Recall Curve for Parameter UGB</h3>
+<img src="parameter1.roc.png" alt="ROC Curve Not Found">
+<h3>Precision-Recall Curve for Parameter UGQ</h3>
+<img src="parameter2.roc.png" alt="ROC Curve Not Found">
+<h3>Precision-Recall Curve for Parameter UVT</h3>
+<img src="parameter3.roc.png" alt="ROC Curve Not Found">
+<h3>Precision-Recall Curve for Parameter UVB</h3>
+<img src="parameter4.roc.png" alt="ROC Curve Not Found">
+<h3>Precision-Recall Curve for Parameter UVQ</h3>
+<img src="parameter5.roc.png" alt="ROC Curve Not Found">
+<h3>Precision-Recall Curve for Parameter EGT</h3>
+<img src="parameter6.roc.png" alt="ROC Curve Not Found">
+<h3>Precision-Recall Curve for Parameter EGB</h3>
+<img src="parameter7.roc.png" alt="ROC Curve Not Found">
+<h3>Precision-Recall Curve for Parameter EGQ</h3>
+<img src="parameter8.roc.png" alt="ROC Curve Not Found">
+<h3>Precision-Recall Curve for Parameter EVT</h3>
+<img src="parameter9.roc.png" alt="ROC Curve Not Found">
+<h3>Precision-Recall Curve for Parameter EVB</h3>
+<img src="parameter10.roc.png" alt="ROC Curve Not Found">
+<h3>Precision-Recall Curve for Parameter EVQ</h3>
+<img src="parameter11.roc.png" alt="ROC Curve Not Found">
+<h2>Precision-Recall Curve by Query</h2><p>For each query, compare all matching id in one graph</p><h3>Precision-Recall Curve for Query 1</h3>
+<img src="query0.roc.png" alt="ROC Curve Not Found">
+<h3>Precision-Recall Curve for Query 2</h3>
+<img src="query1.roc.png" alt="ROC Curve Not Found">
+<h3>Precision-Recall Curve for Query 3</h3>
+<img src="query2.roc.png" alt="ROC Curve Not Found">
+<h3>Precision-Recall Curve for Query 4</h3>
+<img src="query3.roc.png" alt="ROC Curve Not Found">
+<h3>Precision-Recall Curve for Query 5</h3>
+<img src="query4.roc.png" alt="ROC Curve Not Found">
+<h3>Precision-Recall Curve for Query 6</h3>
+<img src="query5.roc.png" alt="ROC Curve Not Found">
+<h3>Precision-Recall Curve for Query 7</h3>
+<img src="query6.roc.png" alt="ROC Curve Not Found">
+
+</body>
+</html>
